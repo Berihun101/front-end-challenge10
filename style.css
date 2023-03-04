@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('images/bg-desktop.svg');
+  background-color: hsl(257, 40%, 49%);
+  display: flex;
+ font-family: 'Poppins', sans-serif;
+}
+h2{
+  color: white;
+  font-size: 3rem;
+}
+p{
+  color: hsl(300, 19%, 91%);
+  font-size: 1.3rem;
+}
+
+.regbtn:hover{
+  background-color: hsl(300, 69%, 81%);
+}
+.regbtn{
+  padding: 1.2rem 1.2rem;
+  border-radius: 30px;
+ width: 200px;
+ cursor: pointer;
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.image-mockup{
+  padding:5rem 2rem;
+}
+.content-form{
+  margin-top: 220px;
+  padding: 0 10rem 0 0;
+}
+.icons{
+  margin-top: 90px;
+  text-align: right;
+}
+.icons i{
+  font-size: 1.4rem;
+  color: white;
+}
+.icons i:hover{
+  color: hsl(300, 99%, 56%);
+}
+.icons button{
+  margin-left: 10px;
+  border-radius: 50%;
+  padding: 0.45rem 0.7rem;
+  border:2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icons button:hover{
+ color: hsl(300, 99%, 56%);
+  border:2px solid hsl(300, 99%, 56%);
+}
+.logo{
+  margin-bottom: 50px;
+}
+@media only screen and (max-width:1150px) {
+body{
+  background-image: url('images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+.content-form{
+  margin-top: 0;
+  text-align: center;
+  padding: 0 2rem;
+}
+.image-mockup img{
+  width: 440px;
+}
+.image-mockup{
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.logo img{
+  width: 140px;
+}
+.icons{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.logo{
+  text-align: left;
+}
+h2{
+  font-size: 2.2rem;
+}
+p{
+  margin-bottom: 20px;
+  font-size: 1.23rem
+}
+}
